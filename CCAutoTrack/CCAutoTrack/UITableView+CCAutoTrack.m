@@ -29,8 +29,8 @@
     
     // 方法二：动态子类
 //    // 调用原来的实现
-    [self cc_setDelegate:delegate];
-    [CCAutoTrackDynamicDelegate proxyWithTableViewDelegate:delegate];
+//    [self cc_setDelegate:delegate];
+//    [CCAutoTrackDynamicDelegate proxyWithTableViewDelegate:delegate];
     
     // 方法三：消息转发
     // 销毁保存的委托对象
